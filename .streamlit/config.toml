@@ -1,0 +1,10 @@
+[theme]
+base = "dark"
+primaryColor = "#58FFAA"
+
+[server]
+# Cloud already runs headless; keeps uploads sane for a public demo
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false

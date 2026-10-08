@@ -1,0 +1,10 @@
+streamlit>=1.50,<2
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+plotly>=5.20
+pillow>=10.0
+# headless build: the regular opencv-python needs libGL, which Streamlit Cloud lacks
+opencv-python-headless>=4.9
+scikit-image>=0.22
+google-genai>=1.0
